@@ -5,8 +5,16 @@ public class ReverseExample {
 		String revString = new StringBuilder(str).reverse().toString();
 		System.out.println("Reverse String : " + revString);
 
-		// Approach 2
-
+    // Approach 2
+     //         String str  ="Yash";
+     //    String revString=" ";
+     //    char ch;
+     //    for(int i=0;i<str.length();i++){
+     //    ch=str.charAt(i);
+     //    revString=ch+revString;
+  
+     //  }
+     // System.out.println("reverse string is "+revString);
 		  
 	}
 }
