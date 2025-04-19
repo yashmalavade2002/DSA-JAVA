@@ -5,7 +5,7 @@ public class Main {
       // Count Total No of Characters in A String
       String str ="Hello Yash";
       int count=0;
-      for(int i=0;i<str.length();i++){
+      for(int i=0;i<str.length();i++){ 
         if(str.charAt(i)!=' '){
           count++;
         }
