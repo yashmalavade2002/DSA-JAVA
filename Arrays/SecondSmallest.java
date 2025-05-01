@@ -19,6 +19,6 @@ public class SecondSmallest {
     public static void main(String[] args) {
         int[] SampleArray = { 12, 34, 15, 6, 40 };
         int result = SecondSmallest(SampleArray);
-        System.out.println("Second Largest Element Is: " + result);
+        System.out.println("Second Smallest Element Is: " + result);
     }
 }
