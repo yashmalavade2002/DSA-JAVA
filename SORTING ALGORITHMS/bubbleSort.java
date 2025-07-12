@@ -32,30 +32,14 @@ for(int i=0;i<length;i++){
 // Auxiliary Space: O(1)
 
 // Algorithm
+// Start from the beginning of the array.
 
-// 1. Start:
+// Compare each pair of adjacent elements.
 
-// 2.Input: Take an array of n elements.
+// If the left element is bigger than the right, swap them.
 
-// 3.Print the unsorted array:
+// Repeat the process for the whole array.
 
-// 4. Loop through the array and print each element.
+// After each full pass, the largest element is pushed to the end.
 
-// 5. Perform Bubble Sort:
-
-// Repeat the following steps n times for each element:
-
-// Loop through the array from index 0 to n - i - 1 (where i is the current outer loop index).
-
-// Compare each adjacent element arr[j - 1] and arr[j].
-
-// 6. If arr[j - 1] > arr[j], swap them.
-
-// 7. After each pass, the largest element gets placed at the end of the array.
-
-// 8. Print the sorted array:
-
-// 9. Loop through the array and print each element.
-
-// 10. End.
-
+// Keep repeating until the array is fully sorted.
